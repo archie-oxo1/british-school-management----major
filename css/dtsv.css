@@ -1,0 +1,88 @@
+.header-sec {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  background: rgb(45, 116, 110);
+  transition: all 0.4s ease;
+  z-index: 999;
+}
+
+
+.header-sec.sticky {
+  position: fixed;
+  background: rgba(10, 14, 45, 0.6);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    margin-right: 50px;
+    text-transform: uppercase;
+
+}
+
+.nav-links li a {
+    display: block;
+    color: var(--white-color);
+}
+
+.nav-links :nth-child(5) {
+    margin-right: 0px;
+}
+
+.nav-search {
+  height: 38px;
+  padding: 0 14px; /* adds inner spacing */
+  border: 2px solid #c39b19; /* gold tone to match your theme */
+  border-radius: 25px;
+
+  font-size: 16px; /* readable text */
+  background-color: #fff;
+  color: #333;
+  
+}
+
+.nav-search::placeholder {
+  color: #888;
+  font-size: 16px;
+}
+
+.nav-search:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 6px rgba(195, 155, 25, 0.5);
+}
+
+/* Keep the input aligned properly with other navbar items */
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  gap: 10px; /* small gap between input and button */
+}
+
+
+/* Keep the input aligned properly with other navbar items */
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+
+/* header sec end */

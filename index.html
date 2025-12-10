@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font cdn link-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+    <!-- header sec start -->
+    <header class="header-sec">
+        <div class="container">
+            <nav class="navbar">
+                <a href="./index.html" class="logo">
+                    <img src="./images/nav logo.png" alt="nav-logo-img">
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./about.html">about us</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                    <li><a href="./feedback.html">feedback</a></li>
+                </ul>
+                <div class="nav-right">
+                    <!-- <a href="#" class="cmn-btn"><i class="fa-solid fa-magnifying-glass"></i> search here</a> -->
+
+                    <input class="nav-search" type="text" id="search" placeholder="click here to search...">
+                    <a href="#" class="cmn-btn search-btn">search</a>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <!-- header sec end -->
+
+    <!-- main start -->
+    <main>
+        <!-- banner sec start -->
+        <section class="banner-sec">
+            <div class="container">
+                <div class="banner-child">
+                    <marquee behavior="" direction=""><span class="banner-upper-text">welcoming you all to</span>
+                    </marquee>
+                    <h1 class="banner-heading">the british school</h1>
+                    <p class="banner-bottom-text">
+                        School management administration oversees the smooth functioning of all academic and
+                        administrative operations. Administrators handle planning, coordination, budgeting, and
+                        communication between staff, students, and parents.
+                    </p>
+                    <div class="ban-btn">
+                        <a href="#" class="banner-btn cmn-btn">open school alumni list</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner sec end -->
+
+        <!-- about sec start -->
+        <section class="about-sec com-gap">
+            <div class="container">
+                <div class="about-child">
+                    <div class="about-left">
+                        <figure>
+                            <img src="./images/about.jpg" alt="about-img">
+                        </figure>
+                    </div>
+                    <div class="about-right">
+                        <div class="about-inner-text">
+                            <h2 class="about-heading">About <span>The British School</span></h2>
+                            <p class="about-text-1 cmn-about-text">
+                                The vision of the founders of <strong>The British School</strong>, ‘to prepare dynamic
+                                and caring citizens to meet the challenges of global society while retaining their
+                                traditional values’, has found its tangible reality in the provision of educational
+                                opportunities for a broad spectrum of learners - from the Primary to the Tertiary
+                                levels.
+                            </p>
+                            <p class="about-text-2 cmn-about-text">
+                                A harmonious integration of valued traditions with modern outlook is the guiding
+                                principle behind the development of the academic environment
+                            </p>
+                            <a href="#" class="abt-btn cmn-btn">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about sec end -->
+
+        <!-- card sec start -->
+        <section class="card-sec com-gap">
+            <div class="container">
+                <div class="card-upper-child">
+                    <h2 class="card-upper-heading">our amenities</h2>
+                    <p class="card-upper-text">Classrooms, Science & Computer Labs, Library — molded for each and every
+                        student.</p>
+                </div>
+                <div class="card-child">
+                    <!-- card-1 -->
+                    <div class="cmn-card">
+                        <div class="card-top">
+                            <figure>
+                                <img src="./images/card-img1.jpg" alt="card-img1">
+                            </figure>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="school-card-tittle">
+                                <h3 class="card-heading heading-5">Spacious Classrooms</h3>
+                                <span class="school-badge">Most Viewed</span>
+                            </div>
+                            <p class="school-card-text">Experienced and Student-friendly Faculty</p>
+                            <div class="school-card-meta">
+
+                                <a href="#" class="card-btn cmn-btn">view more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card-2 -->
+                    <div class="cmn-card">
+                        <div class="card-top">  
+                            <figure>
+                                <img src="./images/card-img2.jpg" alt="card-img2">
+                            </figure>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="school-card-tittle">
+                                <h3 class="card-heading heading-5">Large Laboratories for Science and Computer
+                                    Practicals</h3>
+                            </div>
+                            <p class="school-card-text">Abundance of appratus in Science labs and fully functional
+                                Computers in the computer lab</p>
+                            <div class="school-card-meta">
+
+                                <a href="#" class="card-btn cmn-btn">view more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card-3 -->
+                    <div class="cmn-card">
+                        <div class="card-top">
+                            <figure>
+                                <img src="./images/card-img3.jpg" alt="card-img3">
+                            </figure>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="school-card-tittle">
+                                <h3 class="card-heading heading-5">Top-class books written by famous scholars for the
+                                    development of the students</h3>
+                            </div>
+                            <p class="school-card-text">Imported books from around the globe for the specially gifted
+                                students</p>
+                            <div class="school-card-meta">
+
+                                <a href="#" class="card-btn cmn-btn">view more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- card sec end -->
+
+        <!-- swiper sec start -->
+        <section class="swiper-sec com-gap">
+            <div class="container">
+                <div class="swiper-child">
+                    <h2 class="section-title">what we provide as an institute to the students</h2>
+
+                    <!-- Swiper (Now pure CSS scroll) -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <div class="school-card">
+                                    <img src="./images/swiper-card-2.png" alt="World Music Day Activities" />
+                                    <div class="school-card-content">
+                                        <h3>World Music Day</h3>
+                                        <p>Various types of students find various types of instruments to harmonize with
+                                            and hence we bring up to the kids a really great chance every year to play
+                                            their hearts out!!</p>
+                                        <button>Know More</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <div class="school-card">
+                                    <img src="./images/swiper-card-3.jpg" alt="Blood Donation Camps" />
+                                    <div class="school-card-content">
+                                        <h3>Blood Donation Camps</h3>
+                                        <p>Blood donation camps thrice a year and a little point collection system on it
+                                            for students who want to earn project points as per norms</p>
+                                        <button>Enlighten Me</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 4 -->
+                            <div class="swiper-slide">
+                                <div class="school-card">
+                                    <img src="./images/swiper-card-4.jpg" alt="Independence Day" />
+                                    <div class="school-card-content">
+                                        <h3>Independence Day Programmes</h3>
+                                        <p>Various kinds of dance, singing, recitation, play to participate in. Even
+                                            guardians can come see</p>
+                                        <button>Types of activities to participate in</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- swiper sec end -->
+
+        <!-- grid sec start -->
+        <section class="grid-sec com-gap">
+            <div class="container">
+                <div class="grid-upper">
+                    <h2 class="grid-upper-heading">Club Activities and Cultural Programmes</h2>
+                    <!-- <p class="grid-upper-text">Have a look at the various types of diversity that we indulge in</p> -->
+                </div>
+                <div class="grid-child">
+                    <!-- grid card 1 -->
+                    <div class="cmn-grid">
+                        <div class="grid-top">
+                            <figure>
+                                <img src="./images/grid-img-1.avif" alt="grid-img">
+                            </figure>
+                        </div>
+                        <div class="grid-bottom">
+                            <h4 class="grid-card-heading heading-5">swimming pool</h4>
+                            <p class="grid-card-text">large indoor pool for practicing</p>
+                        </div>
+                    </div>
+                    <!-- grid card 2 -->
+                    <div class="cmn-grid">
+                        <div class="grid-top">
+                            <figure>
+                                <img src="./images/grid-img-2.avif" alt="grid-img">
+                            </figure>
+                        </div>
+                        <div class="grid-bottom">
+                            <h4 class="grid-card-heading heading-5">A well thought playground for a child any age to
+                                enjoy</h4>
+                            <p class="grid-card-text">teachers and staff always stay by students' side to prevent any
+                                accident</p>
+                        </div>
+                    </div>
+                    <!-- grid card 3 -->
+                    <div class="cmn-grid">
+                        <div class="grid-top">
+                            <figure>
+                                <img src="./images/grid-img-3.avif" alt="grid-img">
+                            </figure>
+                        </div>
+                        <div class="grid-bottom">
+                            <h4 class="grid-card-heading heading-5">Independence day celebrations</h4>
+                            <p class="grid-card-text">cultural functions - dance, music</p>
+                        </div>
+                    </div>
+                    <!-- grid card 4 -->
+                    <div class="cmn-grid">
+                        <div class="grid-top">
+                            <figure>
+                                <img src="./images/grid-img-4.avif" alt="grid-img">
+                            </figure>
+                        </div>
+                        <div class="grid-bottom">
+                            <h4 class="grid-card-heading heading-5">Republic day celebrations</h4>
+                            <p class="grid-card-text">cultural functions - dance, music, play</p>
+                        </div>
+                    </div>
+                    <!-- grid card 5 -->
+                    <div class="cmn-grid">
+                        <div class="grid-top">
+                            <figure>
+                                <img src="./images/grid-img-5.avif" alt="grid-img">
+                            </figure>
+                        </div>
+                        <div class="grid-bottom">
+                            <h4 class="grid-card-heading heading-5">blood donation camps</h4>
+                            <p class="grid-card-text">complimentary juice given for every student who donates blood</p>
+                        </div>
+                    </div>
+                    <!-- grid card 6 -->
+                    <div class="cmn-grid">
+                        <div class="grid-top">
+                            <figure>
+                                <img src="./images/grid-img-6.avif" alt="grid-img">
+                            </figure>
+                        </div>
+                        <div class="grid-bottom">
+                            <h4 class="grid-card-heading heading-5">horse riding</h4>
+                            <p class="grid-card-text">students around the age of 16 or higher have the choice of
+                                potentially learning horse riding through the clubs recruiting</p>
+                        </div>
+                    </div>
+                    <!-- grid card 7 -->
+                    <div class="cmn-grid">
+                        <div class="grid-top">
+                            <figure>
+                                <img src="./images/grid-img-7.avif" alt="grid-img">
+                            </figure>
+                        </div>
+                        <div class="grid-bottom">
+                            <h4 class="grid-card-heading heading-5">rock climbing</h4>
+                            <p class="grid-card-text">safety equipment provided to children above 15 to learn rock
+                                climbing. the Rock Climbing Club is popular due to its activities</p>
+                        </div>
+                    </div>
+                    <!-- grid card 8 -->
+                    <div class="cmn-grid">
+                        <div class="grid-top">
+                            <figure>
+                                <img src="./images/grid-img-8.avif" alt="grid-img">
+                            </figure>
+                        </div>
+                        <div class="grid-bottom">
+                            <h4 class="grid-card-heading heading-5">Art-n-Craft</h4>
+                            <p class="grid-card-text">art and craft classes for children of every age group with the
+                                complexity rising as they grow up to accommodate classic as well as modern styles of
+                                crafting their own masterpieces</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- grid sec end -->
+
+
+        <!-- fixed whatsapp logo -->
+        <div class="fixed-wp-logo">
+            <a href="#" class="whatsapp-logo"> <img src="./images/WhatsApp-logo.avif" alt="whatsapp-logo"></a>
+        </div>
+
+
+        <!-- global partnership sec start -->
+        <section class="partnership-sec com-gap">
+            <div class="container">
+                <div class="partnership-upper-heading">
+                    <h2 class="partnership-heading">our partners</h2>
+                </div>
+                <!-- partnership sec-1 -->
+                <div class="partnership-child">
+                    <!-- partnership left -->
+                    <div class="partnership-left">
+                        <figure>
+                            <img src="./images/global-school-partnership-1-.jpg" alt="Global Partner 1 logo">
+                        </figure>
+                    </div>
+                    <!-- partnership right -->
+                    <div class="partnership-right">
+                        <h3 class="partnership-right-heading">Goethe Gymnasium ~ Dusseldorf, Germany</h3>
+                        <p class="partnership-right-text"> the Goethe-Gymnasium, formerly the Rethel-Gymnasium, is a
+                            municipal high school with the ambition to fully fulfill its educational mission and to
+                            create school happiness in the spirit of its namesake, Johann Wolfgang von Goethe – “ For
+                            what is to affect hearts must come from the heart.</p>
+                        <ul class="features">
+                            <li>certification from both schools</li>
+                            <li>paid lunch system for ace students</li>
+                            <li>exposure to world class talents</li>
+                        </ul>
+                        <div class="partnership-sec-btn">
+                            <a href="#" class="partnership-left-btn cmn-btn">View School</a>
+                            <a class="partnership-right-btn cmn-btn" href="#"
+                                aria-label="Contact about seaview rooms">Partnership History</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- partnership sec-2 -->
+                <div class="partnership-child reverse">
+                    <!-- partnership left -->
+                    <div class="partnership-left">
+                        <figure>
+                            <img src="./images/global-school-partnership-2.jpg" alt="Global partner 2 logo">
+                        </figure>
+                    </div>
+                    <!-- partnership right -->
+                    <div class="partnership-right">
+                        <h3 class="partnership-right-heading">International students' dialogues in association withn
+                            Global Education Benchmark Group</h3>
+                        <p class="partnership-right-text">The Institute for Global Learning (formerly GEBG) connects
+                            educators with the community and resources they need to engage their students with the
+                            world, both close to home and beyond.</p>
+                        <ul class="features">
+                            <li>certification from both schools</li>
+                            <li>on-campus dorm rooms with in-house mess for cooked meals</li>
+                            <li>researching and establishing model practices in the field of global education and
+                                supports member schools to bring global perspectives, global issues and global
+                                competencies into their teaching and learning to empower their students as global
+                                citizens.</li>
+                        </ul>
+                        <div class="partnership-sec-btn">
+                            <a href="#" class="partnership-left-btn cmn-btn">check school</a>
+                            <a class="partnership-right-btn cmn-btn" href="#"
+                                aria-label="Contact about seaview rooms">partnership history</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- global partnership end -->
+
+
+
+        <!-- Enquiry Form Section start-->
+        <section class="enquiry-sec com-gap">
+            <div class="container">
+                <div class="enquiry-child">
+                    <div class="enquiry-left">
+                        <h3 class="enquiry-left-heading">
+                            have any queries or looking for info for your child's admission?
+                        </h3>
+                        <p class="highlight">
+                            for quick support, call us at <strong>+91 82404 19589</strong>
+                        </p>
+                    </div>
+
+                    <div class="enquiry-right">
+                        <form class="enquiry-form" method="post" action="./dtsv.html" onsubmit="return data(event)">
+                            <div class="form-group">
+                                <label for="name" class="l1">Full Name</label>
+                                <input type="text" id="n1" name="name" placeholder="Enter your full name" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="address" class="l1">Address</label>
+                                <input type="text" id="n2" name="address" placeholder="Enter your address" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact" class="l1">Contact Number</label>
+                                <input type="tel" id="n3" name="contact" placeholder="Enter your contact number" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="l1">Email Address</label>
+                                <input type="text" id="n4" name="email" placeholder="Enter your email id" />
+                            </div>
+
+                            <input type="submit" class="enquiry-submit-btn cmn-btn">
+                                submit
+                        
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enquiry Form Section end-->
+    </main>
+
+    <!-- main end -->
+
+    <!-- footer sec start -->
+    <footer class="footer-sec com-gap">
+        <div class="container">
+            <div class="footer-child">
+                <!-- Logo, Text & Social-media icons -->
+                <div class="cmn-footer">
+                    <div class="footer-logo">
+                        <img src="./images/nav logo.png" alt="footer-logo-img">
+                    </div>
+                    <p class="footer-logo-text">Help your child to get his life here in a learners' paradise</p>
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/Kolkata.Ghoul.Ardin"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/ardin.exe/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/archishman-jana-626b88205/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+                <!-- Quick Links -->
+                <div class="cmn-footer">
+                    <h4 class="footer-heading">quick links</h4>
+                    <ul class="footer-links">
+                        <li><a href="./index.html">home</a></li>
+                        <li><a href="./about.html">about</a></li>
+                        <li><a href="./contact.html">contact</a></li>
+                        <li><a href="#">achievements</a></li>
+                        <li><a href="#">amenities we offer</a></li>
+                    </ul>
+                </div>
+                <!-- Our Services -->
+                <div class="cmn-footer">
+                    <h4 class="footer-heading">our students</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">extra-curricular activities</a></li>
+                        <li><a href="#">co-curricular activities</a></li>
+                        <li><a href="#">celebrations of public holidays</a></li>
+                        <li><a href="#">business partnership assistance</a></li>
+                    </ul>
+                </div>
+                <!-- Newsletter -->
+                <div class="cmn-footer">
+                    <h4 class="footer-heading">newsletter</h4>
+                    <p>subscribe for weekly updates</p>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div class="copyright">
+                    <span>© Copyright 2025 By <a href="./index.html">The British School.</a> All right reserved.</span>
+
+                    <!-- © Copyright 2025 By The British School. All right reserved. -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer sec end -->
+
+
+
+
+
+
+
+
+    <!-- JS link -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
